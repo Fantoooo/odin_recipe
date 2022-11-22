@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: rgb(7, 160, 7);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+body{
+    background-color: wheat;
+}
+h3{
+    color: white;
+}
