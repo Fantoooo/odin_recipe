@@ -2,24 +2,46 @@
     border: solid 1px rgb(128, 0, 128, 0);
     font-weight: 900;
     font-family: monospace;
+    color: #130D33;
 }
 
 html{
-    background-color: blue;
+    background-color: #231955;
+    width: 100%;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.bleu{
+    background-color: darkblue;
+    flex: auto;
+    border-radius: 10px;
+}
+
+.rouge{
+    background-color: darkred;
+    border-radius: 10px;
+    flex: 2;
 }
 
 h1{
     text-align: center;
-    background-color: blue;
-    color: black;
+    background-color: #E8AA42;
+    color: rgb(255, 234, 234);
     border-top: solid 5px black;
-    border-bottom: solid 5px black;
+    margin-top: -5px;
+    border-bottom: solid 5px #E8AA42;
     display: block;
     padding: 20PX;
 }
 body{
-    background-color: white;
-    border: 5px solid black;
+    background-color: #FFE5B4;
+    border: 5px solid #E8AA42;
     width: auto;
     height: auto;
 }
@@ -28,7 +50,7 @@ h3{
 }
 .bas{
     display: inline-flex;
-    background-color: black;
+    background-color: #E8AA42;
     color: white;
     width: 100%;
 }
